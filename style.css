@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+ 
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url(/imagen/matrix-75.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: solid 1px rgb(255, 225, 0);
+
+    div {
+        border: solid 1px gold;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 255, 255, 0.549);
+
+
+
+        ul {
+            display: inline-block;
+            text-align: center;
+
+
+            li {
+                text-align: left;
+                padding: 5px;
+
+            }
+             
+        }
+        p {
+            font-size: 30px;
+        }
+    }
+
+    #yesid {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid rgba(218, 165, 32, 0);
+        background-color: rgba(255, 217, 0, 0.728);
+        border-radius: 50%;
+        width: 450px;
+        height: 450px;
+        padding: 5px;
+        margin: 5px;
+
+        p {
+            font-size: 20px;
+            display: block;
+        }
+
+        h1 {
+            color: blue;
+        }
+    }
+
+    img {
+        border-radius: 50px;
+    }
+
+    .caja_top {
+        display: flex;
+    }
+
+    .caja_boton {
+        display: flex;
+
+
+    }
+
+
+}
